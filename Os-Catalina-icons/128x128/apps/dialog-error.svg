@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="102.210309pt" height="102.210309pt" viewBox="0 0 102.210309 102.210309" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-06-18T14:35:06.965745</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.0.dev5180+g5662ae1493, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 102.210309 
+L 102.210309 102.210309 
+L 102.210309 -0 
+L 0 -0 
+L 0 102.210309 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.4 87.810309 
+L 87.810309 87.810309 
+L 87.810309 14.4 
+L 14.4 14.4 
+L 14.4 87.810309 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 51.105155 80.469278 
+C 58.892611 80.469278 66.362162 77.375289 71.868726 71.868726 
+C 77.375289 66.362162 80.469278 58.892611 80.469278 51.105155 
+C 80.469278 43.317698 77.375289 35.848147 71.868726 30.341584 
+C 66.362162 24.83502 58.892611 21.741031 51.105155 21.741031 
+C 43.317698 21.741031 35.848147 24.83502 30.341584 30.341584 
+C 24.83502 35.848147 21.741031 43.317698 21.741031 51.105155 
+C 21.741031 58.892611 24.83502 66.362162 30.341584 71.868726 
+C 35.848147 77.375289 43.317698 80.469278 51.105155 80.469278 
+z
+" clip-path="url(#pfcc008422b)" style="fill: #d71934"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1"/>
+    <g id="xtick_2"/>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1"/>
+    <g id="ytick_2"/>
+   </g>
+   <g id="text_1">
+    <!-- ! -->
+    <g style="fill: #ffffff" transform="translate(44.055155 69.954814) scale(0.6 -0.6)">
+     <defs>
+      <path id="Cochineal-Roman-21" d="M 403 282 
+C 403 96 570 -70 755 -70 
+C 941 -70 1094 96 1094 282 
+C 1094 467 941 621 755 621 
+C 570 621 403 467 403 282 
+z
+M 781 4013 
+C 582 4013 467 3821 467 3648 
+C 467 3328 570 2067 659 1062 
+C 678 1024 704 1005 736 992 
+C 794 998 813 1024 838 1075 
+C 973 2637 1056 3475 1056 3648 
+C 1056 3808 973 4013 781 4013 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cochineal-Roman-21"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfcc008422b">
+   <rect x="14.4" y="14.4" width="73.410309" height="73.410309"/>
+  </clipPath>
+ </defs>
+</svg>
