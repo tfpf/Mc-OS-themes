@@ -102,7 +102,7 @@
 @define-color colour_031 #000000;
 @define-color colour_032 #DDDDDD;
 @define-color colour_033 #101010;
-@define-color colour_034 #0077DA; /* Blue. */
+@define-color colour_034 #079486; /* Combobox. */
 @define-color colour_035 #515151;
 @define-color colour_036 #FF4D4D;
 @define-color colour_037 #929292;
@@ -110,7 +110,7 @@
 @define-color colour_039 #DEDDDE;
 @define-color colour_040 #F08437;
 @define-color colour_041 #D8DDE4;
-@define-color colour_042 #0277DB; /* Blue. */
+@define-color colour_042 #079486; /* Suggested button. */
 @define-color colour_043 #3B99FC; /* Blue. */
 @define-color colour_044 #74A4EB; /* Blue. */
 @define-color colour_045 #828282;
@@ -173,7 +173,7 @@
 @define-color colour_102 #ACACAC;
 @define-color colour_103 #202020;
 @define-color colour_104 #F27835;
-@define-color colour_105 #54A0FF; /* Blue. */
+@define-color colour_105 #47D4C6; /* Combobox. */
 @define-color colour_106 #676772;
 @define-color colour_107 #AAAEB7;
 @define-color colour_108 #477BC7; /* Blue. */
