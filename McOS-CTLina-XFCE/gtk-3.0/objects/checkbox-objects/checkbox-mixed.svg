@@ -47,11 +47,11 @@
        y1="514.38"
        x1="399.09">
       <stop
-         stop-color="#1d60c4"
+         stop-color="#079486"
          offset="0"
          id="stop2" />
       <stop
-         stop-color="#1d60c4"
+         stop-color="#079486"
          offset="1"
          id="stop4" />
     </linearGradient>
@@ -96,7 +96,7 @@
        y="0.50540137"
        x="0.52612054"
        id="rect15"
-       style="fill:#0086f5;stroke-width:0.21614;fill-opacity:1" />
+       style="fill:#27B4A6;stroke-width:0.21614;fill-opacity:1" />
     <rect
        rx="0.27907997"
        ry="0.2420768"
@@ -114,6 +114,6 @@
        y="1.8627603"
        x="0.97180128"
        id="rect19"
-       style="fill:#e9f1fc;stroke-width:0.21614" />
+       style="fill:#D4EEEE;stroke-width:0.21614" />
   </g>
 </svg>
