@@ -616,12 +616,12 @@ iconview:selected:focus {
 rubberband{
 
   border: 1px solid @colour_147;
-  background-color: rgba(25, 84, 173, 0.2); }
+  background-color: rgba(151, 228, 214, 0.2); }
 
 .rubberband{
 
  border: 1px solid @colour_147;
-  background-color: rgba(25, 84, 173, 0.2); }
+  background-color: rgba(151, 228, 214, 0.2); }
 
 /******************************************************/
 /* flowbox                                            */
@@ -630,7 +630,7 @@ rubberband{
 flowbox rubberband{
 
 border: 1px solid @colour_147;
-  background-color: rgba(25, 84, 173, 0.2); }
+  background-color: rgba(151, 228, 214, 0.2); }
 
 flowbox flowboxchild {
 
@@ -655,7 +655,7 @@ flowbox flowboxchild:disabled:selected{
 treeview.view rubberband{
 
   border: 1px solid @colour_147;
-  background-color: rgba(25, 84, 173, 0.2); }
+  background-color: rgba(151, 228, 214, 0.2); }
 
 treeview entry{
 
@@ -1091,7 +1091,7 @@ treeview.radio:checked:disabled:selected{
 
 .content-view rubberband{
  border: 1px solid @colour_147;
-  background-color: rgba(25, 84, 173, 0.2); }
+  background-color: rgba(151, 228, 214, 0.2); }
 
 .view.content-view.check:not(list){
 
