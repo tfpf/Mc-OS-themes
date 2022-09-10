@@ -84,13 +84,13 @@ style "default" {
 
   fg[NORMAL] = @text_color
   fg[PRELIGHT] = @text_color
-  fg[SELECTED] = @text_color
+  fg[SELECTED] = @selected_fg_color
   fg[INSENSITIVE] = @insensitive_fg_color
   fg[ACTIVE] = @text_color
 
   text[NORMAL] = @text_color
   text[PRELIGHT] =  @text_color
-  text[SELECTED] = @fg_color
+  text[SELECTED] = @selected_fg_color
   text[INSENSITIVE] = @insensitive_fg_color
   text[ACTIVE] =  @text_color
 
