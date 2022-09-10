@@ -70,7 +70,7 @@
 
 @define-color colour_000 #6D6C6D;
 @define-color colour_001 #F6F8FA;
-@define-color colour_002 #4D98FE; /* Blue. */
+@define-color colour_002 #27B4A6; /* Buttons. */
 @define-color colour_003 #FD716A;
 @define-color colour_004 #163E9D; /* Blue. */
 @define-color colour_005 #FF6666;
@@ -123,7 +123,7 @@
 @define-color colour_052 #4F5052;
 @define-color colour_053 #EDEDED;
 @define-color colour_054 #73D216;
-@define-color colour_055 #0A7FFF; /* Blue. */
+@define-color colour_055 #079486; /* Buttons. */
 @define-color colour_056 #D4D5DB;
 @define-color colour_057 #5D626E;
 @define-color colour_058 #EC1B22;
@@ -161,14 +161,14 @@
 @define-color colour_090 #BCBCBC;
 @define-color colour_091 #487AFA; /* Blue. */
 @define-color colour_092 #F0F2F8;
-@define-color colour_093 #0765E3; /* Blue. */
+@define-color colour_093 #47D4C6; /* Buttons. */
 @define-color colour_094 #FC4138;
 @define-color colour_095 #F3313A;
 @define-color colour_096 #646772;
 @define-color colour_097 #D0D0D0;
 @define-color colour_098 #D8D7D8;
 @define-color colour_099 #C7CBD0;
-@define-color colour_100 #6AB4FD; /* Blue. */
+@define-color colour_100 #27B4A6; /* Buttons. */
 @define-color colour_101 #CDCDCD;
 @define-color colour_102 #ACACAC;
 @define-color colour_103 #202020;
