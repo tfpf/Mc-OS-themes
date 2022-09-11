@@ -242,7 +242,7 @@ style "default" {
       function = OPTION
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -250,7 +250,7 @@ style "default" {
       function = OPTION
       state = PRELIGHT
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -258,7 +258,7 @@ style "default" {
       function = OPTION
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -266,7 +266,7 @@ style "default" {
       function = OPTION
       state = SELECTED
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -881,7 +881,7 @@ style "menu_item"
       function = OPTION
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/menu-radio-checked.png"
+      overlay_file = "assets/menu-radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -897,7 +897,7 @@ style "menu_item"
       function = OPTION
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/menu-radio-checked.png"
+      overlay_file = "assets/menu-radio-checked.svg"
       overlay_stretch = FALSE
     }
 
