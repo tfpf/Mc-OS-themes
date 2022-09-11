@@ -76,7 +76,7 @@
 @define-color colour_005 #FF6666;
 @define-color colour_006 #C9C9C9;
 @define-color colour_007 #079486; /* Buttons. */
-@define-color colour_008 #2679DB; /* Blue. */
+@define-color colour_008 #2679DB; /* Links. */
 @define-color colour_009 #808080;
 @define-color colour_010 #EDEEF0;
 @define-color colour_011 #F4F4F5;
@@ -89,7 +89,7 @@
 @define-color colour_018 #DDE2E7;
 @define-color colour_019 #97E4D6; /* Button hover. */
 @define-color colour_020 #C5C3C6;
-@define-color colour_021 #BAD4F3; /* Blue. */
+@define-color colour_021 #BAD4F3; /* Links. */
 @define-color colour_022 #079486; /* Whisker Menu. */
 @define-color colour_023 #BAC3CF;
 @define-color colour_024 #079486; /* Menu bar buttons. */
@@ -111,7 +111,7 @@
 @define-color colour_040 #F08437;
 @define-color colour_041 #D8DDE4;
 @define-color colour_042 #079486; /* Suggested button. */
-@define-color colour_043 #3B99FC; /* Blue. */
+@define-color colour_043 #27B4A6; /* Progress bar. */
 @define-color colour_044 #74A4EB; /* Blue. */
 @define-color colour_045 #828282;
 @define-color colour_046 #E9E9E9;
