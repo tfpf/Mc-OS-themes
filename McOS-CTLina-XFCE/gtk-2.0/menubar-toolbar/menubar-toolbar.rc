@@ -54,7 +54,7 @@ style "menubar_item" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "menubar-toolbar/menubar_button.png"
+      file = "menubar-toolbar/menubar_button.svg"
       border = { 2, 2, 2, 2 }
       stretch = TRUE
     }

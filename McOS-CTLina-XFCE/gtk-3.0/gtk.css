@@ -92,7 +92,7 @@
 @define-color colour_021 #BAD4F3; /* Blue. */
 @define-color colour_022 #079486; /* Whisker Menu. */
 @define-color colour_023 #BAC3CF;
-@define-color colour_024 #47D4C6; /* Menu bar buttons. */
+@define-color colour_024 #079486; /* Menu bar buttons. */
 @define-color colour_025 #E6E5E6;
 @define-color colour_026 #4179C6; /* Blue. */
 @define-color colour_027 #737273;
@@ -213,7 +213,7 @@
 @define-color colour_142 #2D75E0; /* Blue. */
 @define-color colour_143 #2E96C0; /* Blue. */
 @define-color colour_144 #838383;
-@define-color colour_145 #47D4C6; /* Menu bar buttons. */
+@define-color colour_145 #079486; /* Menu bar buttons. */
 @define-color colour_146 #A2A2A2;
 @define-color colour_147 #27B4A6; /* Mouse click-drag selection boundary. */
 @define-color colour_148 #F12712;
@@ -7372,14 +7372,14 @@ menubar > menuitem:hover{
   color: @colour_136;
   text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.04),-1px  0px alpha(@colour_136, 0.04);
   background-color: transparent;
-  background-image:linear-gradient(to bottom,@colour_070,@colour_145);}
+  background-image:linear-gradient(to bottom,@colour_145,@colour_070);}
 
 .menubar > menuitem:hover {
 
   color: @colour_136;
   text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.06),-1px  0px alpha(@colour_136, 0.04);
   background-color: transparent;
-  background-image:linear-gradient(to bottom,@colour_070,@colour_145);}
+  background-image:linear-gradient(to bottom,@colour_145,@colour_070);}
 
 menubar > menuitem:disabled{
 
@@ -7470,7 +7470,7 @@ menu menuitem:hover{
   color: @colour_136;
   text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.04),-1px  0px alpha(@colour_136, 0.04);
   background-color: transparent;
-  background-image:linear-gradient(to bottom,@colour_070,@colour_024);}
+  background-image:linear-gradient(to bottom,@colour_024,@colour_070);}
 
 menu menuitem check{
 
