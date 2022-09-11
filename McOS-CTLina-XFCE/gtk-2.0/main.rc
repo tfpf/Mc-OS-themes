@@ -742,7 +742,7 @@ style "menu_item"
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/menuitem.png"
+      file = "assets/menuitem.svg"
       border = { 1, 0, 1, 0 }
       stretch = TRUE
     }
