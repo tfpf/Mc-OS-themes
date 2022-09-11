@@ -156,7 +156,7 @@ style "default" {
       recolorable = TRUE
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -165,7 +165,7 @@ style "default" {
       recolorable = TRUE
       state = PRELIGHT
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -174,7 +174,7 @@ style "default" {
       recolorable = TRUE
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -183,7 +183,7 @@ style "default" {
       recolorable = TRUE
       state = SELECTED
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
