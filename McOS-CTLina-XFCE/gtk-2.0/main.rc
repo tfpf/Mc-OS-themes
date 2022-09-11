@@ -812,7 +812,7 @@ style "menu_item"
       recolorable = TRUE
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/menu-checkbox-checked.png"
+      overlay_file = "assets/menu-checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -830,7 +830,7 @@ style "menu_item"
       recolorable = TRUE
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/menu-checkbox-checked.png"
+      overlay_file = "assets/menu-checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
