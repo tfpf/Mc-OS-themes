@@ -12265,11 +12265,10 @@ checkbutton label:not(:only-child):last-child{
 }
 #whiskermenu-window button:hover {
         
-        color:@colour_103;
+        color:@colour_136;
 	border-color: @colour_102;
   background-color: transparent;
-  background-image: linear-gradient(to top,rgba(255,255,255,1),
-                                              rgba(255,255,255,1));
+  background-image: linear-gradient(to top,@colour_022,@colour_070);
 }
 #whiskermenu-window button:checked {
  
