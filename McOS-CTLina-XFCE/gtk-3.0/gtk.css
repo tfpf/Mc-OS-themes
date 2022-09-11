@@ -12633,7 +12633,7 @@ background-image: linear-gradient(to top, @colour_120, @colour_120);}
 .thunar toolbar button:checked:hover,
 .thunar toolbar button:active:hover{
 
-  background-image: image(@colour_136);
+  background-color: @colour_019;
   border-color:rgba(0, 0, 0, 0.08) rgba(0,0,0,0.12) rgba(0, 0, 0, 0.2) rgba(0,0,0,0.12);}
 
 .thunar toolbar button:checked,
