@@ -616,7 +616,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = ACTIVE
-      file = "assets/slider-horiz-active.png" 
+      file = "assets/slider-horiz-active.svg"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -1807,7 +1807,7 @@ style "range" {
     image {
       function = BOX
       detail = "trough-lower"
-      file = "assets/trough-horizontal-active.png"
+      file = "assets/trough-horizontal-active.svg"
       border = { 8, 8, 0, 0 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -1850,7 +1850,7 @@ style "range" {
       file = "assets/null.png"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider-prelight.png"
+      overlay_file = "assets/slider-prelight.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
@@ -1885,7 +1885,7 @@ style "range" {
       file = "assets/null.png"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider-prelight.png"
+      overlay_file = "assets/slider-prelight.svg"
       overlay_stretch = FALSE
       orientation = VERTICAL
     }
