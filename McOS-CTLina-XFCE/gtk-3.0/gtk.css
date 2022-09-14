@@ -8069,7 +8069,7 @@ scrolledwindow viewport.frame {
 
 scrolledwindow overshoot.top {
 
-  background-image: -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(82, 148, 226, 0.2)), to(rgba(82, 148, 226, 0)));
+  background-image: -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(39, 180, 166, 0.4)), to(rgba(39, 180, 166, 0)));
   background-size: 100% 60%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -8079,7 +8079,7 @@ scrolledwindow overshoot.top {
 
 scrolledwindow overshoot.bottom {
 
-  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(82, 148, 226, 0.2)), to(rgba(82, 148, 226, 0)));
+  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(39, 180, 166, 0.4)), to(rgba(39, 180, 166, 0)));
   background-size: 100% 60%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -8089,7 +8089,7 @@ scrolledwindow overshoot.bottom {
 
 scrolledwindow overshoot.left {
 
-  background-image: -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(82, 148, 226, 0.2)), to(rgba(82, 148, 226, 0)));
+  background-image: -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(39, 180, 166, 0.4)), to(rgba(39, 180, 166, 0)));
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: left center;
@@ -8099,7 +8099,7 @@ scrolledwindow overshoot.left {
 
 scrolledwindow overshoot.right {
 
-  background-image: -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(82, 148, 226, 0.2)), to(rgba(82, 148, 226, 0)));
+  background-image: -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(39, 180, 166, 0.4)), to(rgba(39, 180, 166, 0)));
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: right center;
