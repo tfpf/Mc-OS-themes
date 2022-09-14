@@ -142,7 +142,7 @@
 @define-color colour_071 #656565;
 @define-color colour_072 #1C59B5; /* Blue. */
 @define-color colour_073 #F8F8F9;
-@define-color colour_074 #72757F;
+@define-color colour_074 #27B4A6; /* Thunar. */
 @define-color colour_075 #B3B3B3;
 @define-color colour_076 #76C0DE; /* Blue. */
 @define-color colour_077 #079486; /* Infobar. */
@@ -12664,7 +12664,7 @@ background-image: linear-gradient(to top, @colour_120, @colour_120);}
 .thunar toolbar .linked:not(.vertical).path-bar > button:hover {
 
   background-color: transparent;
-  background-image: linear-gradient(to bottom, rgba(254,255,255,1),rgba(254,255,255,1));}
+  background-image: linear-gradient(to bottom, @colour_019,@colour_019);}
 
 .thunar toolbar .linked:not(.vertical).path-bar > button:checked:hover,
 .thunar toolbar .linked:not(.vertical).path-bar > button:checked,
@@ -12674,7 +12674,7 @@ background-image: linear-gradient(to top, @colour_120, @colour_120);}
   color: @colour_136;
   text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.04),-1px  0px alpha(@colour_136, 0.04);
   border-color:rgba(0, 0, 0, 0.08) rgba(0,0,0,0.12) rgba(0, 0, 0, 0.2) rgba(0,0,0,0.12);
-  background-image: linear-gradient(to bottom, @colour_074,@colour_065);}
+  background-image: linear-gradient(to bottom, @colour_055,@colour_074);}
 
 .thunar toolbar .linked:not(.vertical).path-bar > button:disabled {
 
