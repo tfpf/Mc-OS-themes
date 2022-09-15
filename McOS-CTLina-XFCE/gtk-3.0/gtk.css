@@ -70,7 +70,7 @@
 
 @define-color colour_000 #6D6C6D;
 @define-color colour_001 #F6F8FA;
-@define-color colour_002 #27B4A6; /* Buttons. */
+@define-color colour_002 #079486; /* Buttons. */
 @define-color colour_003 #FD716A;
 @define-color colour_004 #079486; /* Buttons. */
 @define-color colour_005 #FF6666;
@@ -115,7 +115,7 @@
 @define-color colour_044 #74A4EB; /* Blue. */
 @define-color colour_045 #828282;
 @define-color colour_046 #E9E9E9;
-@define-color colour_047 #4A85CB; /* Blue. */
+@define-color colour_047 #079486; /* Rows. */
 @define-color colour_048 #699BCC; /* Blue. */
 @define-color colour_049 #696969;
 @define-color colour_050 #DFDFDF;
@@ -161,7 +161,7 @@
 @define-color colour_090 #BCBCBC;
 @define-color colour_091 #487AFA; /* Blue. */
 @define-color colour_092 #F0F2F8;
-@define-color colour_093 #47D4C6; /* Buttons. */
+@define-color colour_093 #27B4A6; /* Buttons. */
 @define-color colour_094 #FC4138;
 @define-color colour_095 #F3313A;
 @define-color colour_096 #646772;
@@ -8190,7 +8190,7 @@ row:selected{
 
   color: @colour_136;
   text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.04),-1px  0px alpha(@colour_136, 0.04);
-  background-color: @colour_070; }
+  background-image: linear-gradient(to bottom, @colour_047, @colour_070); }
 
 row:selected label{
 
@@ -12666,15 +12666,22 @@ background-image: linear-gradient(to top, @colour_120, @colour_120);}
   background-color: transparent;
   background-image: linear-gradient(to bottom, @colour_019,@colour_019);}
 
-.thunar toolbar .linked:not(.vertical).path-bar > button:checked:hover,
 .thunar toolbar .linked:not(.vertical).path-bar > button:checked,
-.thunar toolbar .linked:not(.vertical).path-bar > button:active:hover,
 .thunar toolbar .linked:not(.vertical).path-bar > button:active{
 
   color: @colour_136;
   text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.04),-1px  0px alpha(@colour_136, 0.04);
   border-color:rgba(0, 0, 0, 0.08) rgba(0,0,0,0.12) rgba(0, 0, 0, 0.2) rgba(0,0,0,0.12);
-  background-image: linear-gradient(to bottom, @colour_055,@colour_074);}
+  background-image: linear-gradient(to bottom,@colour_074, @colour_055);}
+
+.thunar toolbar .linked:not(.vertical).path-bar > button:checked:hover,
+.thunar toolbar .linked:not(.vertical).path-bar > button:active:hover
+{
+  color: @colour_136;
+  text-shadow: 0px 1px alpha(@colour_031, 0.40),0 -1px alpha(@colour_136, 0.04),-1px  0px alpha(@colour_136, 0.04);
+  border-color:rgba(0, 0, 0, 0.08) rgba(0,0,0,0.12) rgba(0, 0, 0, 0.2) rgba(0,0,0,0.12);
+  background-image: linear-gradient(to bottom, @colour_055,@colour_074);
+}
 
 .thunar toolbar .linked:not(.vertical).path-bar > button:disabled {
 
