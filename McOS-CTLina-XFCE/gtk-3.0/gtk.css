@@ -12231,7 +12231,7 @@ checkbutton label:not(:only-child):last-child{
         
 	background-color: transparent;
 
- background-image:linear-gradient(to top right,rgba(242,243,246,0.98),rgba(219,224,230,0.98),rgba(215,220,226,0.98));
+ background-image:linear-gradient(to top right,rgba(182,183,186,0.98),rgba(219,224,230,0.98),rgba(215,220,226,0.98));
 	color: @colour_103;
 }
 #whiskermenu-window frame {
@@ -12303,6 +12303,13 @@ checkbutton label:not(:only-child):last-child{
   background-color: transparent;
   background-image:linear-gradient(to bottom,@colour_022,@colour_070);
   border-color: @colour_070;
+}
+
+#whiskermenu-window treeview:focus
+{
+    color: @colour_070;
+    background-color: transparent;
+    background-image:linear-gradient(to bottom,@colour_136,@colour_136);
 }
 
 #whiskermenu-window entry,
