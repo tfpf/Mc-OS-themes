@@ -12305,13 +12305,6 @@ checkbutton label:not(:only-child):last-child{
   border-color: @colour_070;
 }
 
-#whiskermenu-window treeview:focus
-{
-    color: @colour_070;
-    background-color: transparent;
-    background-image:linear-gradient(to bottom,@colour_136,@colour_136);
-}
-
 #whiskermenu-window entry,
 #whiskermenu-window entry:focus {
   margin-top: 4px;
