@@ -8,17 +8,17 @@
 /* Use the system theme colour as the text selection colour. */
 ::-moz-selection
 {
-    color: #FFFFFF;
-    background: #27B4A6;
+    color: #FFFFFF !important;
+    background: #27B4A6 !important;
 }
 ::selection
 {
-    color: #FFFFFF;
-    background: #27B4A6;
+    color: #FFFFFF !important;
+    background: #27B4A6 !important;
 }
 
 /* Set the typeface for code blocks. */
-pre, code, .blob-code, .blob-code-marker
+pre, code, .ace_editor, .blob-code, .blob-code-marker
 {
     font-family: 'Cascadia Code', monospace !important;
 }
