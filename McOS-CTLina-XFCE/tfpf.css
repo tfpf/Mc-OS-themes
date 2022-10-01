@@ -18,7 +18,7 @@
 }
 
 /* Set the typeface for code blocks. */
-pre, code, .ace_editor, .blob-code, .blob-code-marker
+pre, code, .ace_editor, .blob-code, .blob-code-inner, .blob-code-marker, .blob-num, .commit-ref, .text-mono
 {
     font-family: 'Cascadia Code', monospace !important;
 }
