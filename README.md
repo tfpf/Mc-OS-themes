@@ -1,3 +1,11 @@
+# Teal-Sea: Light Style and Icon Themes
+This is a fork of
+[paullinuxthemer/Mc-OS-themes](https://github.com/paullinuxthemer/Mc-OS-themes)
+wherein I have customised two themes with teal (or sea green) as the theme
+colour. The original readme follows below.
+
+---
+
 # Mc-OS-themes
 (Formerly known as Gnome-OSC-themes) 
 
