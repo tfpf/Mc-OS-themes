@@ -1,9 +1,11 @@
 # Teal-Sea: Light Style and Icon Themes
 This is a fork of
 [paullinuxthemer/Mc-OS-themes](https://github.com/paullinuxthemer/Mc-OS-themes)
-wherein I have customised a style theme and an icon theme (for the Xfce desktop
-environment) with teal (or sea green) as the main colour. The original readme
-follows below.
+wherein I have customised a style theme from the same repository and the icon
+theme from
+[zayronxio/Os-Catalina-icons](https://github.com/zayronxio/Os-Catalina-icons)
+for the Xfce desktop environment with teal (or sea green) as the main colour.
+The original readme follows below.
 
 ---
 
