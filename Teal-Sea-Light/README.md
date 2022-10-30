@@ -1,10 +1,11 @@
+# Teal-Sea-Light
+
+This is a gnome-theme that contains a modified GTKRC and GTK.CSS. As such its
+licence is GPLv2, of which the downloaded file contains a copy.
 
 
-This is a gnome-theme that contains a modified GTKRC and GTK.CSS.  As such it licence is GPLv2, of which the downloaded file contains a copy.
-
-
- GRAND GTK.CSS FILE is a modified GTK.CSS with each element its own settings  
- Created by PAULXFCE (2017)                              
+ GRAND GTK.CSS FILE is a modified GTK.CSS with each element its own settings.
+ Created by PAULXFCE (2017).
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
