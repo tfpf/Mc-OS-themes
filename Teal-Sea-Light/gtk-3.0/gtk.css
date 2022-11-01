@@ -11962,11 +11962,12 @@ scale trough:disabled {
   background-color: @colour_050;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.01); }
 
-scale fill {
+scale fill
+{
+    border-radius: 1.5px;
+    background-color: rgba(39, 180, 166, 0.3);
+}
 
-  border-radius: 1.5px;
-  background-color: rgba(82, 148, 226, 0.5); }
-  
 scale fill:disabled {
 
   background-color:white; }
@@ -11982,9 +11983,10 @@ scale highlight {
   border-radius: 2.5px;
   background-color: @colour_070; }
 
-scale highlight:disabled {
-
-  background-color: rgba(82, 148, 226, 0.55); }
+scale highlight:disabled
+{
+    background-color: rgba(39, 180, 166, 0.3);
+}
 
 scale slider:hover {
 
