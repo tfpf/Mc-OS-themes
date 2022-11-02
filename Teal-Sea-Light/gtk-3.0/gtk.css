@@ -2441,15 +2441,13 @@ combobox button.combo {
   min-width: 16px;
   padding-left: 1px;
   padding-right:1px;
-  margin: -1px -13px -1px -1px;
+  margin: -2px -13px -2px -1px;
   border-radius: 0 4.3px 4.3px 0;
   /*border-width: 1px;
   border-style: solid;*/
   color: @colour_136;
   background-color: @colour_014;
-  border-color: @colour_091;
-  border-top-color: @colour_110;
-  border-bottom-color: @colour_126;
+  border-color: rgba(105, 105, 105, 0.3);
   background-image: linear-gradient(@colour_105, @colour_034);
   box-shadow: none;
 }
@@ -3062,11 +3060,11 @@ primary-toolbar .linked:not(.vertical):not(.path-bar) > entry.warning + entry.er
   background-color: transparent;
   background-image:linear-gradient(to bottom,@colour_149, @colour_066);
     }
-.primary-toolbar .linked:not(.vertical):not(path-bar) > button:hover {
-
-  background-color: transparent; 
-  background-image: linear-gradient(to top,rgba(255,255,255,1),
-                                              rgba(255,255,255,1));}
+.primary-toolbar .linked:not(.vertical):not(path-bar) > button:hover
+{
+    background-color: @colour_019;
+    background-image: linear-gradient(to top, @colour_019, @colour_019);
+}
 
 .primary-toolbar .linked:not(.vertical):not(path-bar) > button:active{
 
@@ -3524,11 +3522,13 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
 
   color: @colour_102; }
 
-.primary-toolbar combobox > .linked > button.combo{
-  
-  color: rgba(41, 33, 33, 0.8);
-  border-color: rgba(105, 105, 105, 0.3);
-  background-color: rgba(255, 255, 255, 0.9); }
+.primary-toolbar combobox > .linked > button.combo
+{
+    margin-right: 8px;
+    color: rgba(41, 33, 33, 0.8);
+    border-color: rgba(105, 105, 105, 0.3);
+    background-color: rgba(255, 255, 255, 0.9);
+}
 
 .primary-toolbar combobox > .linked > button.combo image{
 
@@ -3538,13 +3538,12 @@ primary-toolbar spinbutton:not(.vertical) > button:not(:disabled):not(:active):n
 
   color: inherit; }
 
-.primary-toolbar combobox > .linked > button.combo:hover{
-
-  color: @colour_136;
-  
-  border-color: @colour_070;
-  background-color: @colour_070;
-  box-shadow: none; }
+.primary-toolbar combobox > .linked > button.combo:hover
+{
+    color: rgba(41, 33, 33, 0.8);
+    background-color: @colour_070;
+    box-shadow: none;
+}
 
 .primary-toolbar combobox > .linked > button.combo:disabled{
 
