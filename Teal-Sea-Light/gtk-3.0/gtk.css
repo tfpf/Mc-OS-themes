@@ -5080,10 +5080,11 @@ headerbar entry image:hover {
 
   color: inherit; }
 
-headerbar entry:focus image {
-
-  color: @colour_136;
-  }
+/* Pacmac search entry icon colour. */
+headerbar entry:focus image
+{
+    color: @colour_103;
+}
 
 headerbar entry progress {
 
