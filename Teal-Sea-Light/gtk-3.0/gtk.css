@@ -5144,7 +5144,7 @@ headerbar entry.error selection:focus {
   background-image: linear-gradient(to bottom,@colour_148,@colour_028); }
 
 /* Headerbar images. Fixes weird alignment change in Pacmac Manager. */
-headerbar image
+headerbar button image
 {
     margin-top: -8px;
     margin-bottom: -8px;
