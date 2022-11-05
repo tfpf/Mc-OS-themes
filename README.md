@@ -4,8 +4,8 @@ This is a fork of
 wherein I have customised a style theme from the same repository and the icon
 theme from
 [zayronxio/Os-Catalina-icons](https://github.com/zayronxio/Os-Catalina-icons)
-for the Xfce desktop environment with teal (or sea green) as the main colour.
-The original readme follows below.
+for the Xfce desktop environment with teal (or sea green or cyan or whatever)
+as the main colour. The original readme follows below.
 
 ---
 
