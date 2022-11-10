@@ -5080,10 +5080,17 @@ headerbar entry image:hover {
 
   color: inherit; }
 
-/* Pacmac search entry icon colour. */
+/* Pamac search entry icon colour. */
 headerbar entry:focus image
 {
     color: @colour_103;
+}
+
+/* Hack to fix awkward headerbar height of Pamac Manager. */
+headerbar box viewswitchertitle squeezer viewswitcher box button stack box image
+{
+    margin-top: -8px;
+    margin-bottom: -8px;
 }
 
 headerbar entry progress {
