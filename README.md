@@ -5,11 +5,17 @@ wherein I have customised a style theme from the same repository and the icon
 theme from
 [zayronxio/Os-Catalina-icons](https://github.com/zayronxio/Os-Catalina-icons)
 for the Xfce desktop environment with teal (or sea green or cyan or whatever)
-as the main colour. To make Qt applications use the GTK2 theme properly on
-Manjaro Linux, I had to install `qt5-styleplugins` (AUR) and
-`gtk-engine-murrine` (official repositories) via Pamac Manager, and then select
-the GTK2 theme in Qt5 Settings. On Linux Mint, only the latter step was
-necessary.
+as the main colour. To make Qt applications use the GTK2 theme properly, I had
+to do a few extra things.
+* **Manjaro**
+  * Installed `qt5-styleplugins` (AUR) and `gtk-engine-murrine` (official
+  repositories) via Pamac Manager.
+  * Selected GTK2 appearance and icon themes in Qt5 Settings.
+* **Peppermint**
+  * Installed `qt5ct`, `qt5-style-plugins` and `gtk2-engines-murrine` via APT.
+  * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to
+  `/etc/X11/Xsession.d/90qt-a11y`.
+  * Selected GTK2 appearance and icon themes in Qt5 Settings.
 
 The original readme follows below.
 
