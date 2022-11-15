@@ -10,12 +10,14 @@ to do a few extra things.
 * **Manjaro**
   * Installed `qt5-styleplugins` (AUR) and `gtk-engine-murrine` (official
   repositories) via Pamac Manager.
-  * Selected GTK2 appearance and icon themes in Qt5 Settings.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5
+  Settings.
 * **Peppermint**
   * Installed `qt5ct`, `qt5-style-plugins` and `gtk2-engines-murrine` via APT.
   * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to
   `/etc/X11/Xsession.d/90qt-a11y`.
-  * Selected GTK2 appearance and icon themes in Qt5 Settings.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5
+  Settings.
 
 The original readme follows below.
 
