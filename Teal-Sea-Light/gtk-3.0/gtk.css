@@ -12390,7 +12390,7 @@ checkbutton label:not(:only-child):last-child{
   font-weight: normal; }
 
 .xfce4-panel.background button {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.7);
   
   background-image: none;
   background-color: @colour_153;
@@ -12419,10 +12419,11 @@ checkbutton label:not(:only-child):last-child{
   
   transition: none; }
 
-.xfce4-panel.background menu {
-
-  -gtk-icon-effect: none;
-   }
+/* Panel right-click context menu. */
+.xfce4-panel.background menu
+{
+    -gtk-icon-effect: none;
+}
 
 .xfce4-panel.background menu .linked button {
 
@@ -12449,36 +12450,28 @@ checkbutton label:not(:only-child):last-child{
 
  /* color: @colour_130; */}
 
-.xfce4-panel.background .tasklist button {
-
- /* margin: 1px;
-  border-radius: 3px;
-  
-  color: shade(@colour_064, 0.7);
-  background-image: linear-gradient(to bottom, shade(@colour_138, 0.65), shade(@colour_138, 0.6), shade(@colour_138, 0.5), shade(@colour_138, 0.45));
-  border: none;*/ }
-
-.xfce4-panel.background .tasklist button.flat {
-
- /* background-image: none;
-  border: none;
-  box-shadow: none; */}
-
+/* Panel window button. */
+.xfce4-panel.background .tasklist button
+{
+    background: @colour_153;
+}
+.xfce4-panel.background .tasklist button.flat
+{
+}
 .xfce4-panel.background .tasklist button:active,
-.xfce4-panel.background .tasklist button:checked {
-
- /* background-image: linear-gradient(to bottom, shade(@colour_084, 0.65), shade(@colour_084, 0.6), shade(@colour_084, 0.5), shade(@colour_084, 0.45));
-  color: shade(@colour_064, 1);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 -1px rgba(0, 0, 0, 0.2); */}
-
-.xfce4-panel.background .tasklist button:hover, .xfce4-panel.background .tasklist button:active:hover, .xfce4-panel.background .tasklist button:checked:hover {
- /* background-image: linear-gradient(to bottom, shade(@colour_084, 0.85), shade(@colour_084, 0.8), shade(@colour_084, 0.7), shade(@colour_084, 0.65));
-  color: shade(@colour_064, 1);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 -1px rgba(0, 0, 0, 0.2);*/ }
-
-.xfce4-panel.background .tasklist button image {
-
-  /*padding: 3px;*/ }
+.xfce4-panel.background .tasklist button:hover,
+.xfce4-panel.background .tasklist button:checked
+{
+    background: @colour_112;
+}
+.xfce4-panel.background .tasklist button:active:hover,
+.xfce4-panel.background .tasklist button:checked:hover
+{
+    background: @colour_121;
+}
+.xfce4-panel.background .tasklist button image
+{
+}
 
 /****************
  * Libre-Office *
