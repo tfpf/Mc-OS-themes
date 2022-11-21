@@ -18,7 +18,7 @@
 }
 
 /* Set the typeface for code blocks. */
-pre, code, tt,
+pre, code, kbd, tt,
 .ace_editor, .blob-code, .blob-code-inner, .blob-code-marker, .blob-num, .cm-content, .code, .commit-ref, .file-info,
 .input-monospace, .sha, .sha-block, .text-mono, .view-lines
 {
