@@ -1,7 +1,7 @@
-/* tfpf.css
+/******************************************************************************
  * A few customisations for all websites. Import this Mozilla format code in
  * Stylus or Stylish (browser add-ons) for Firefox.
- */
+ *****************************************************************************/
 
 @namespace url(http://www.w3.org/1999/xhtml);
 
@@ -20,7 +20,7 @@
 /* Set the typeface for code blocks. */
 pre, code, tt,
 .ace_editor, .blob-code, .blob-code-inner, .blob-code-marker, .blob-num, .cm-content, .code, .commit-ref, .file-info,
-.input-monospace, .sha, .sha-block, .text-mono
+.input-monospace, .sha, .sha-block, .text-mono, .view-lines
 {
     font-family: 'Cascadia Code', monospace !important;
 }
