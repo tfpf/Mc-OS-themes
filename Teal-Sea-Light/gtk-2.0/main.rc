@@ -654,7 +654,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = ACTIVE
-      file = "assets/slider-vert-active.png" 
+      file = "assets/slider-vert-active.svg"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -1825,7 +1825,7 @@ style "range" {
     image {
       function = BOX
       detail = "trough-lower"
-      file = "assets/trough-vertical-active.png"
+      file = "assets/trough-vertical-active.svg"
       border = { 0, 0, 8, 8 }
       stretch = TRUE
       orientation = VERTICAL
