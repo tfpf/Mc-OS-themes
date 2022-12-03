@@ -5092,6 +5092,11 @@ headerbar box viewswitchertitle squeezer viewswitcher box button stack box image
     margin-top: -8px;
     margin-bottom: -8px;
 }
+headerbar box viewswitchertitle squeezer viewswitcher box button stack box stack label
+{
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
 
 headerbar entry progress {
 
