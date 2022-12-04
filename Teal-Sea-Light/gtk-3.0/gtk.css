@@ -12238,97 +12238,87 @@ checkbutton label:not(:only-child):last-child{
 
   margin-right: 4px; }
 
-/*****Whisker menu settings**********/
+/******************************************************************************
+ * Whisker Menu.
+ *****************************************************************************/
 
-#whiskermenu-window {
-        border-radius: 2px;
-        
-	background-color: transparent;
-
- background-image:linear-gradient(to top right,rgba(182,183,186,0.98),rgba(219,224,230,0.98),rgba(215,220,226,0.98));
-	color: @colour_103;
+/* Background. */
+#whiskermenu-window
+{
+    border-radius: 2px;
+    background-color: transparent;
+    background-image: linear-gradient(to top right, rgba(162, 163, 166, 0.98), rgba(219, 224, 230, 0.98), rgba(215, 220, 226, 0.98));
+    color: @colour_103;
 }
-#whiskermenu-window frame {
-      border-radius: 2px;
-      box-shadow: 1px 7px 7px 7px rgba(216,221,227, 0.26);
-      /*border: 3px solid black;*/ }
-
-       
- 
-/* Make sidebar buttons match */
-#whiskermenu-window button {
-        margin-right: 8px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        margin-left: 4px;
-        padding-left: 6px;
-        padding-right: 6px;
-        border: 1px;
-        border-color:rgba(255,255,255,0);
-        border-radius: 5px;
-	background-color: transparent;
-        background-image: linear-gradient(to top,rgba(255,255,255,0),
-                                              rgba(255,255,255,0));
-	color: @colour_103;
-        
-        /*text-shadow:  0 -1px alpha(@colour_136, 0.04),
-				 -1px  0px alpha(@colour_103, 0.05),
-				  1px  0px alpha(@colour_103, 0.05),
-				  0px  1px alpha(@colour_103, 0.5),
-				  0px  2px alpha(@colour_103, 0.05);*/
-}
-#whiskermenu-window button:hover {
-        
-        color:@colour_136;
-	border-color: @colour_102;
-  background-color: transparent;
-  background-image: linear-gradient(to top,@colour_022,@colour_070);
-}
-#whiskermenu-window button:checked {
- 
-	color: @colour_136;
-  
- 
-  background-color: transparent;
-  background-image:linear-gradient(to bottom,@colour_022,@colour_070);
-  border-color: @colour_070;
+#whiskermenu-window frame
+{
+    border-radius: 2px;
+    box-shadow: 1px 7px 7px 7px rgba(216, 221, 227, 0.26);
+    border: 0px;
 }
 
-/* Make treeview match */
-#whiskermenu-window treeview {
-        color: @colour_103;
-        
-	background-color: rgba(255,255,255,0.95);
-        padding-top:1px;
-        padding-bottom: 1px;
-        padding-left: 6px;
-        padding-right: 6px;
-	/*color: @colour_018;
-        text-shadow:  0 -1px alpha(@colour_136, 0.04),
-				 -1px  0px alpha(@colour_103, 0.05),
-				  1px  0px alpha(@colour_103, 0.05),
-				  0px  1px alpha(@colour_103, 0.5),
-				  0px  2px alpha(@colour_103, 0.05);*/
+/* Action and category (sidebar) buttons. */
+#whiskermenu-window button
+{
+    margin-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    color: @colour_103;
 }
-#whiskermenu-window treeview:hover {
-		color: @colour_136;
-  
- 
-  background-color: transparent;
-  background-image:linear-gradient(to bottom,@colour_022,@colour_070);
-  border-color: @colour_070;
+#whiskermenu-window button:hover
+{
+    color: @colour_136;
+    border-color: @colour_102;
+    background-color: transparent;
+    background-image: linear-gradient(to top, @colour_022, @colour_070);
+}
+#whiskermenu-window button:checked
+{
+    color: @colour_136;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, @colour_022, @colour_070);
+    border-color: @colour_070;
 }
 
+/* Treeview. */
+#whiskermenu-window treeview
+{
+    color: @colour_103;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#whiskermenu-window treeview:hover
+{
+    color: @colour_136;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, @colour_022, @colour_070);
+    border-color: @colour_070;
+}
+
+/* Search entry. */
 #whiskermenu-window entry,
-#whiskermenu-window entry:focus {
-  margin-top: 4px;
-  margin-bottom: 4px;
-  margin-left: 8px;
-  margin-right: 8px;
-  border: 1px solid;
-  border-color:rgba(0, 0, 0, 0.12);
-  border-bottom-color: rgba(0, 0, 0, 0.18);
-  border-top-color: rgba(0, 0, 0, 0.08); }
+#whiskermenu-window entry:focus
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-bottom-color: rgba(0, 0, 0, 0.18);
+    border-top-color: rgba(0, 0, 0, 0.08);
+}
 
 /*#whiskermenu-window scrollbar {
 
