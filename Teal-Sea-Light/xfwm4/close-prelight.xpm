@@ -1,6 +1,6 @@
 /* XPM */
 static char * close_prelight_xpm[] = {
-"24 26 56 1",
+"24 26 57 1",
 " 	c None",
 ".	c #E6E5E6",
 "+	c #E5E4E5",
@@ -57,9 +57,10 @@ static char * close_prelight_xpm[] = {
 "o	c #E0D1D3",
 "p	c #E0DFE0",
 "q	c #DFDEDF",
-"........................",
-"........................",
-"........................",
+"x  c #E5E4E5",
+"xxxxxxxxxxxxxxxxxxxxxxxx",
+"xxxxxxxxxxxxxxxxxxxxxxxx",
+"xxxxxxxxxxxxxxxxxxxxxxxx",
 "........................",
 "++++++++++++++++++++++++",
 "++++++++++++++++++++++++",

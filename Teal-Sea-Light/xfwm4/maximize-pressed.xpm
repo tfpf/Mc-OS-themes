@@ -1,6 +1,6 @@
 /* XPM */
 static char * maximize_pressed_xpm[] = {
-"24 26 48 1",
+"24 26 49 1",
 " 	c None",
 ".	c #E6E5E6",
 "+	c #E5E4E5",
@@ -49,9 +49,10 @@ static char * maximize_pressed_xpm[] = {
 "g	c #79D07E",
 "h	c #CFDDD0",
 "i	c #DFDEDF",
-"........................",
-"........................",
-"........................",
+"x  c #E5E4E5",
+"xxxxxxxxxxxxxxxxxxxxxxxx",
+"xxxxxxxxxxxxxxxxxxxxxxxx",
+"xxxxxxxxxxxxxxxxxxxxxxxx",
 "........................",
 "++++++++++++++++++++++++",
 "+++@@@@@@@@@@@@@@@@@@+++",
