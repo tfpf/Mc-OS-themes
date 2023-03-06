@@ -1,39 +1,54 @@
-#XfceNotifyWindow {
-    background-color: rgba(255,255,255,1);
+#XfceNotifyWindow
+{
+    background-color: rgba(255, 255, 255, 1);
     color: #202020;
     border: none;
     border-radius: 10px;
 }
 
-#XfceNotifyWindow button {
-  color:#ffffff;
-  border-radius: 4px;
-  border-color: #699bcc #4179c6 #1f5bbd #4179c6;
-  background-image: linear-gradient(to bottom,#6ab4fd,#0a7fff);
-  text-shadow: 0px 1px alpha(#000000, 0.40),0 -1px alpha(#ffffff, 0.04),-1px  0px alpha(#ffffff, 0.04);
+#XfceNotifyWindow button
+{
+    color: #FFFFFF;
+    border-radius: 4px;
+    border-color: #47D4C6 #27B4A6 #079486 #27B4A6;
+    background-image: linear-gradient(to bottom, #47D4C6, #079486);
+}
+#XfceNotifyWindow button:active
+{
+    color:#FFFFFF;
+    border-radius: 4px;
+    border-color: #47D4C6 #27B4A6 #079486 #27B4A6;
+    background-image: linear-gradient(to bottom, #079486, #47D4C6);
+}
+#XfceNotifyWindow button:not(:active):hover
+{
+    color:#FFFFFF;
+    border-radius: 4px;
+    border-color: #47D4C6 #27B4A6 #079486 #27B4A6;
+    background-image: linear-gradient(to bottom, #27B4A6, #27B4A6);
 }
 
-#XfceNotifyWindow label#summary {
+#XfceNotifyWindow label#summary
+{
     font-weight: bold;
 }
 
-#XfceNotifyWindow progressbar {
+#XfceNotifyWindow progressbar
+{
     min-height: 6px;
     border-radius: 3px;
 }
-
-#XfceNotifyWindow progressbar progress {
+#XfceNotifyWindow progressbar progress
+{
     background-image: none;
-    background-color: #fcfcfc;
+    background-color: #FCFCFC;
     border: none;
     box-shadow: none;
 }
-
-#XfceNotifyWindow progressbar trough {
-    background-image: linear-gradient(to bottom,
-                                      shade(#46484f, 0.65),
-                                      shade(#46484f, 1.25)
-                                      );
-    border: 1px solid shade(#46484f, 0.2);
+#XfceNotifyWindow progressbar trough
+{
+    background-image: linear-gradient(to bottom, shade(#46484F, 0.65), shade(#46484F, 1.25));
+    border: 1px solid shade(#46484F, 0.2);
     border-radius: 3px;
-    padding: 1px 0;}
+    padding: 1px 0;
+}
