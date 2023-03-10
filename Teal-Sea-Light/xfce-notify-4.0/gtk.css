@@ -41,14 +41,14 @@
 #XfceNotifyWindow progressbar progress
 {
     background-image: none;
-    background-color: #FCFCFC;
+    background-color: rgba(39, 180, 166, 0.9);
     border: none;
     box-shadow: none;
 }
 #XfceNotifyWindow progressbar trough
 {
-    background-image: linear-gradient(to bottom, shade(#46484F, 0.65), shade(#46484F, 1.25));
-    border: 1px solid shade(#46484F, 0.2);
+    background-color: rgba(204, 204, 204, 0.9);
+    border: 0px;
     border-radius: 3px;
-    padding: 1px 0;
+    padding: 1px 1px;
 }
