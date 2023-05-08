@@ -20,7 +20,7 @@
 /* Set the typeface for code blocks. */
 pre, code, kbd, tt,
 .ace_editor, .blob-code, .blob-code-inner, .blob-code-marker, .blob-num, .cm-content, .code, .commit-ref, .file-info,
-.input-monospace, .sha, .sha-block, .text-mono, .view-lines
+.input-monospace, .react-file-line, .react-line-number, .sha, .sha-block, .text-mono, .view-lines
 {
     font-family: 'Cascadia Code', monospace !important;
 }
