@@ -8,21 +8,22 @@ for the Xfce desktop environment with teal (or sea green or cyan or whatever)
 as the main colour. To make Qt applications use the GTK2 theme properly, I had
 to do a few extra things.
 * **Manjaro**
-  * Installed `qt5-styleplugins` (AUR) and `gtk-engine-murrine` (official
-  repositories) via Pamac Manager.
-  * Selected GTK2 appearance and icon themes, and the default palette in Qt5
-    Settings.
+  * Installed `qt5-styleplugins` (AUR) and `gtk-engine-murrine` (official repositories) via Pamac Manager.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 * **Peppermint**
   * Installed `qt5ct`, `qt5-style-plugins` and `gtk2-engines-murrine` via APT.
-  * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to
-  `/etc/X11/Xsession.d/90qt-a11y`.
-  * Selected GTK2 appearance and icon themes, and the default palette in Qt5
-    Settings.
+  * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `/etc/X11/Xsession.d/90qt-a11y`.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 * **openSUSE**
   * Installed `qt5ct` and `gtk2-engine-murrine` via zypper.
   * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `$HOME/.config/environment`.
-  * Selected GTK2 appearance and icon themes, and the default palette in Qt5
-    Settings.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
+* **EndeavourOS**
+  * Installed
+    * `qt5ct` and `gtk-engine-murrine` via pacman.
+    * `qt5-styleplugins` via Yay.
+  * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `/etc/environment`.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 
 The original readme follows below.
 
