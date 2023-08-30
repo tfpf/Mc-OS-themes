@@ -683,8 +683,6 @@ style "scrollbar" {
 style "menu"
 {
 
-   xthickness = 0
-   ythickness = 0
    engine "pixmap"
    {
       
@@ -692,8 +690,8 @@ style "menu"
       {
          function        = BOX
 	 recolorable     = TRUE
-	 file            = "assets/background.svg"
-	 border          = { 20, 20, 20, 20 }
+	 file            = "assets/background.png"
+	 border          = { 4, 4, 4, 4 }
 	 stretch         = TRUE	
       }
    }
@@ -712,8 +710,10 @@ style "separator_menu_item" {
 }
 
 
-style "menu_framed_box"
-{
+style "menu_framed_box" {
+
+#  engine "adwaita" {
+#  }
 }
 
 style "menu_item"
