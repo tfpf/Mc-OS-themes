@@ -11,17 +11,16 @@ to do a few extra things.
   * Installed `qt5-styleplugins` (AUR) and `gtk-engine-murrine` (official repositories) via Pamac Manager.
   * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 * **Peppermint**
-  * Installed `qt5ct`, `qt5-style-plugins` and `gtk2-engines-murrine` via APT.
+  * Ran `sudo apt install gtk2-engines-murrine qt5-style-plugins qt5ct`.
   * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `/etc/X11/Xsession.d/90qt-a11y`.
   * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 * **openSUSE**
-  * Installed `qt5ct` and `gtk2-engine-murrine` via zypper.
+  * Ran `sudo zypper install gtk2-engine-murrine qt5ct`.
   * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `$HOME/.config/environment`.
   * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 * **EndeavourOS**
-  * Installed
-    * `qt5ct` and `gtk-engine-murrine` via pacman.
-    * `qt5-styleplugins` via Yay.
+  * Ran `sudo pacman -S gtk-engine-murrine qt5ct`.
+  * Ran `yay -S qt5-styleplugins`.
   * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `/etc/environment`.
   * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 
