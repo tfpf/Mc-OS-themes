@@ -9339,6 +9339,11 @@ terminal-window notebook > header.top button{
   min-width: 24px;
   min-height: 24px; }
 
+/* Remove this from `~/.config/gtk-3.0/gtk.css` to remove text padding. */
+VteTerminal, vte-terminal {
+    padding: 0px;
+}
+
 /*********************************************************************/
 /*            DISK-SPACE-DISPLAY                                     */
 /*********************************************************************/
