@@ -23,6 +23,10 @@ to do a few extra things.
   * Ran `yay -S qt5-styleplugins`.
   * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `/etc/environment`.
   * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
+* **Fedora**
+  * Ran `sudo dnf install gtk-murrine-engine qt5-qtstyleplugins qt5ct`.
+  * Added `export QT_QPA_PLATFORMTHEME=qt5ct` to `/etc/environment`.
+  * Selected GTK2 appearance and icon themes, and the default palette in Qt5 Settings.
 
 The original readme follows below.
 
