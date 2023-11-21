@@ -12331,6 +12331,13 @@ checkbutton label:not(:only-child):last-child{
 
 /******XFCE-panel**********/
 
+/* Configure show/hide delay. */
+* {
+    -XfcePanelWindow-popup-delay: 10;
+    -XfcePanelWindow-popdown-delay: 10;
+    -XfcePanelWindow-autohide-size: 1;
+}
+
 /*XfceHeading {
 
   margin: 0;
