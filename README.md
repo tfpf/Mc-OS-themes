@@ -5,7 +5,9 @@ wherein I have customised a style theme from the same repository and the icon
 theme from
 [zayronxio/Os-Catalina-icons](https://github.com/zayronxio/Os-Catalina-icons)
 for the Xfce desktop environment with teal (or sea green or cyan or whatever)
-as the main colour. To make Qt applications use the GTK2 theme properly, I had
+as the main colour. 
+The Plank theme is from [darkomarko42/Marwaita-manjaro](https://github.com/darkomarko42/Marwaita-manjaro).
+To make Qt applications use the GTK2 theme properly, I had
 to do a few extra things.
 * **Manjaro**
   * Installed `qt5-styleplugins` (AUR) and `gtk-engine-murrine` (official repositories) via Pamac Manager.
