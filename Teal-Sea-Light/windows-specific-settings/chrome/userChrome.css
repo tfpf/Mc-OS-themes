@@ -1,5 +1,8 @@
-#navigator-toolbox,
-panelview
+#main-menubar,  /* Menu bar. */
+menupopup,  /* Right-click context menu. Supersedes `#mainPopupSet`. */
+#navigator-toolbox,  /* URL bar, bookmarks toolbar, etc. */
+panelview,  /* Application menu. */
+tooltip  /* Tooltips under cusror. */
 {
     font-family: "Signika" !important;
 }
